@@ -2,10 +2,10 @@
 20/12/2020
 
 ### Project Title
-Replace the Project Title
+Bikshare Data Project
 
 ### Description
-Describe what your project is about and what it does
+This programe enables you to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. the data answers interesting questions about it by computing descriptive statistics. 
 
 ### Files used
 Include the files used
