@@ -211,6 +211,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
+        # TO DO: Display data sample 
         view_data(df)
         
         restart = input('\nWould you like to restart? Enter yes or no.\n')
