@@ -2,6 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 import time
+from tabulate import tabulate
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -193,12 +195,14 @@ def user_stats(df):
     print('-'*40)
     
 def view_data(df):
+    i=0
     while True:
-        view_data = input('\nWould you like to view idivisual trip? Enter yes or no.\n')
-        if view_data.lower() == 'yes':
-            print(df.sample(n=1))
-            continue
-        break
+        display_data = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
+        if display_data.lower() != 'yes':
+            break
+        print(tabulate(df.iloc[np.arange(0+i,5+i)], headers ="keys"))
+        i+=5
+
             
 
 

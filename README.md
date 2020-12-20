@@ -16,6 +16,11 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
+### Libraries needed
+Numpy
+Panda
+tabulate
+
 ### Credits
 This project made for Udacity PSND.
 https://github.com/udacity/pdsnd_github.git 
